@@ -22,4 +22,4 @@
 
 LARE can effectively alleviate some of the limitations of numerical difficulties in causal discovery methods for stationary time series data in high-dimensionality, nonlinear interaction pattern recognition, and causal matrix optimization. Primarily, we present a learnable Node Correlation Matrix (NCM) to capture node embeddings participating in causal structures. Based on NCM, we subsequently propose to maintain a learnable Structure Identification Matrix (SIM) as the latent representation space of the causal graphs that is able to identify the target node embeddings automatically. More importantly, we can apply nonlinear structures such as multilayer perceptrons (MLPs) or convolutional neural networks (CNNs) to estimate SIM, thereby modeling nonlinear causal relationships efficiently.
 
-<center><img src="../CausalTime/github_files/arch_github.png" width="800px"></center>
+<center><img src="../Appendix2.svg" width="800px"></center>
