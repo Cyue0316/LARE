@@ -21,7 +21,7 @@
 ## ✍️ Paper summary
 An important goal of multivariate time series analysis is to explain the underlying structure between the individual series to provide an interpretable output within understanding various phenomena. However, the high dimension properties of time series introduce complex dynamic interaction information between individual series and present significant causal structure discovery challenges. Among the many choices for causal insights about an underlying process, Directed Acyclic Graphs (DAGs) have shown promise, clearly describing the degree of influence between variables by investigating the edges of the graph.
 
-<center><img src="Appendix2.svg" width="800px"></center>
+<center><img src="Figure1.svg" width="800px"></center>
 
 LARE can effectively alleviate some of the limitations of numerical difficulties in causal discovery methods for stationary time series data in high-dimensionality, nonlinear interaction pattern recognition, and causal matrix optimization. Primarily, we present a learnable Node Correlation Matrix (NCM) to capture node embeddings participating in causal structures. Based on NCM, we subsequently propose to maintain a learnable Structure Identification Matrix (SIM) as the latent representation space of the causal graphs that is able to identify the target node embeddings automatically. More importantly, we can apply nonlinear structures such as multilayer perceptrons (MLPs) or convolutional neural networks (CNNs) to estimate SIM, thereby modeling nonlinear causal relationships efficiently.
 
